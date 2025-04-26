@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-raleway: "Inter", sans-serif;
+  --font-imperator: "Tinos", serif;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-brown: #8d191c;
+
+  /* Gaps */
+  --gap-382xl: 401px;
+  --gap-24xl: 43px;
+  --gap-976xl: 995px;
+
+  /* Paddings */
+  --padding-xl: 20px;
+  --padding-27xl: 46px;
+  --padding-4xs: 9px;
+  --padding-35xl: 54px;
+  --padding-8xl: 27px;
+}
+li {
+  font-family: var(--font-raleway) !important;
+}
